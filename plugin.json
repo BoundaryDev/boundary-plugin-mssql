@@ -1,6 +1,6 @@
 {
     "description": "Monitors Microsoft SQL Server",
-    "command": "powershell -NoLogo -NonInteractive -Command \"Set-ExecutionPolicy RemoteSigned; .\\plugin.ps1\"",
+    "command": "powershell -NoLogo -NonInteractive -Command Set-ExecutionPolicy RemoteSigned; .\\plugin.ps1",
     "icon" : "icon.png",
     "metrics" : [
         "MSSQL_ACTIVE_TEMP_TABLES",
