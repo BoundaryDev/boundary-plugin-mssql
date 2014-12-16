@@ -46,7 +46,6 @@ function outputMetrics
     
     foreach ($item in $data.counterSamples)
     {
-        Write-Host $item
         $boundary_name = $BOUNDARY_NAME_MAP[$item.Path][0]
         $value = $item.CookedValue * $BOUNDARY_NAME_MAP[$item.Path][1]
         Write-Host ("{0} {1}" -f $boundary_name, $value)
