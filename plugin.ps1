@@ -86,6 +86,7 @@ function outputMetrics
 
 while (1)
 {
+    # Note: outputMetrics samples the counters over a one-second interval, so
+    # there's no need to sleep between calls.
     outputMetrics
-    sleep 1
 }
