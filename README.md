@@ -8,7 +8,8 @@ Only Windows is supported.
 ### Prerequisites
 - SQL Server 2008, 2012 or 2014.
 
-Note that multiple instances of SQL Server running on the same machine are not supported by the plugin.
+Multiple instances of SQL Server running on the same machine are supported: each instance will show up as a
+separate source on your Boundary dashboard.
 
 ### Plugin Configuration Fields
 
